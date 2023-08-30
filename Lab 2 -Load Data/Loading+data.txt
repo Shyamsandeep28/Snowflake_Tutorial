@@ -1,8 +1,8 @@
 //Rename data base & creating the table + meta data
 
-ALTER DATABASE FIRST_DB RENAME TO OUR_FIRST_DB; 
-
-CREATE TABLE "OUR_FIRST_DB"."PUBLIC"."LOAN_PAYMENT" (
+CREATE DATABASE SANDEEP_DB
+-------------------------------------------------------------
+CREATE TABLE "SANDEEP_DB"."PUBLIC"."LOAN_PAYMENT" (
   "Loan_ID" STRING,
   "loan_status" STRING,
   "Principal" STRING,
